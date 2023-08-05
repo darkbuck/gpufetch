@@ -21,6 +21,7 @@
 
 GPUCHIP get_chip_from_pci_cuda(struct pci* pci) {
   CHECK_PCI_START
+  CHECK_PCI(pci, 0x28e0, CHIP_AD107)
   CHECK_PCI(pci, 0x27b8, CHIP_AD104GL)
   CHECK_PCI(pci, 0x2785, CHIP_AD104)
   CHECK_PCI(pci, 0x26b8, CHIP_AD102GL)

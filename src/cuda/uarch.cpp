@@ -240,6 +240,8 @@ void map_chip_to_uarch_cuda(struct uarch* arch) {
   CHECK_UARCH(arch, CHIP_AD102GL,  "AD102",    UARCH_ADA,      4)
   CHECK_UARCH(arch, CHIP_AD104,    "AD104",    UARCH_ADA,      4)
   CHECK_UARCH(arch, CHIP_AD104GL,  "AD104",    UARCH_ADA,      4)
+  CHECK_UARCH(arch, CHIP_AD107,    "AD107",    UARCH_ADA,      4)
+  CHECK_UARCH(arch, CHIP_AD107GL,  "AD107",    UARCH_ADA,      4)
   // HOPPER (9.0)
   CHECK_UARCH(arch, CHIP_GH100,    "GH100",    UARCH_HOPPER,   4)
   CHECK_UARCH_END
